@@ -1,0 +1,54 @@
+{
+  "header": {
+    "Project": "niah_5",
+    "owner": "695f3964-346b-11ee-8d07-42010a800fe0",
+    "company_id": "6b3f1f52-346a-11ee-8d07-42010a800fe0",
+    "team_id": "85c74f20-346a-11ee-8d07-42010a800fe0",
+    "docker": "no",
+    "tags": "niah5",
+    "scanner_type": "dependencies",
+    "projectId": "6a09ccfe-5d46-11ee-809e-42010a800fe0",
+    "scanId": "6a09ccff-5d46-11ee-809e-42010a800fe0",
+    "connection name": "sbom",
+    "language": "php",
+    "ecosystem": "php",
+    "Tested With": "",
+    "Severity": {},
+    "Total Scanned Dependancies": 0,
+    "Total Unique Vulnerabilities": 0,
+    "Total Vulnerable Dependencies": 0,
+    "Date": "27-09-2023_14:59:06"
+  },
+  "inventory": [
+    {
+      "name": "pear/log",
+      "version": "1.13.3",
+      "type": "library",
+      "bom-ref": "pkg:composer/pear/log@1.13.3?package-id=000d4a09ba0f25d6",
+      "cpe": "cpe:2.3:a:pear\\/log:pear\\/log:1.13.3:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/pear/log@1.13.3",
+      "license": "MIT"
+    },
+    {
+      "name": "pear/pear_exception",
+      "version": "v1.0.2",
+      "type": "library",
+      "bom-ref": "pkg:composer/pear/pear_exception@v1.0.2?package-id=87882c2dc104ccf7",
+      "cpe": "cpe:2.3:a:pear\\/pear-exception:pear\\/pear-exception:v1.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/pear/pear_exception@v1.0.2",
+      "license": "BSD-2-Clause"
+    },
+    {
+      "name": "smarty/smarty",
+      "version": "v4.3.4",
+      "type": "library",
+      "bom-ref": "pkg:composer/smarty/smarty@v4.3.4?package-id=95fac2d72268c377",
+      "cpe": "cpe:2.3:a:smarty\\/smarty:smarty\\/smarty:v4.3.4:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/smarty/smarty@v4.3.4",
+      "license": "LGPL-3.0-only"
+    }
+  ],
+  "Issues": {
+    "data": []
+  }
+}

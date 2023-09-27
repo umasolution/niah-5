@@ -1,0 +1,6 @@
+{
+    "require": {
+        "pear/log": "^1.13",
+        "smarty/smarty": "^4.0"
+    }
+}

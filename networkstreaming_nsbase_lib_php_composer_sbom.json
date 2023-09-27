@@ -1,0 +1,155 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:2f6e003a-b22c-409f-8f87-5c5d53124399",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-09-27T14:40:30Z",
+    "tools": [
+      {
+        "vendor": "anchore",
+        "name": "syft",
+        "version": "0.88.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "5be91000cfa6a9ba",
+      "type": "file",
+      "name": "networkstreaming_nsbase_lib_php_composer"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:composer/pear/log@1.13.3?package-id=000d4a09ba0f25d6",
+      "type": "library",
+      "name": "pear/log",
+      "version": "1.13.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:pear\\/log:pear\\/log:1.13.3:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/pear/log@1.13.3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "PhpComposerJsonMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/pear/pear_exception@v1.0.2?package-id=87882c2dc104ccf7",
+      "type": "library",
+      "name": "pear/pear_exception",
+      "version": "v1.0.2",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:pear\\/pear-exception:pear\\/pear-exception:v1.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/pear/pear_exception@v1.0.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "PhpComposerJsonMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pear\\/pear-exception:pear\\/pear_exception:v1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pear\\/pear_exception:pear\\/pear-exception:v1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pear\\/pear_exception:pear\\/pear_exception:v1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pear\\/pear:pear\\/pear-exception:v1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pear\\/pear:pear\\/pear_exception:v1.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:composer/smarty/smarty@v4.3.4?package-id=95fac2d72268c377",
+      "type": "library",
+      "name": "smarty/smarty",
+      "version": "v4.3.4",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-3.0-only"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:smarty\\/smarty:smarty\\/smarty:v4.3.4:*:*:*:*:*:*:*",
+      "purl": "pkg:composer/smarty/smarty@v4.3.4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "php-composer-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "php"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "PhpComposerJsonMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "php-composer"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/composer.lock"
+        }
+      ]
+    }
+  ]
+}
